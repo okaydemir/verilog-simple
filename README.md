@@ -1,6 +1,7 @@
 # verilog-simple
 Simple verilog gate level implementation
-
+# Truth Table
+![truth table](/imgs/truth table.JPG)
 # Sum of Products (SOP)
 
 S	=H'O'NR+H'ON'R'+H'ON'R+H'ONR'+H'ONR+HO'N'R'+HO'NR'+HO'NR+HON'R'+HON'R+HONR'+HONR </br>
@@ -29,3 +30,6 @@ S	=(H+O+N+R)(H+O+N+R')(H+O+N'+R)(H'+O+N+R')
 S	=(H+O+R+NN')(O+N+R'+HH')  -> distr</br>
 	=(H+O+R+0)(O+N+R'+0) -> complement</br>
 	=(H+O+R)(O+N+R')   -> null elements</br>
+
+# Circuit
+![Circuit](/imgs/circuit.jpg)
